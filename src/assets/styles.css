@@ -28,7 +28,34 @@ button {
 
 .weather-list {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   margin-top: 20px;
+}
+
+.weather-card {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+}
+
+.weather-card img {
+  width: 50px;
+  height: 50px;
+}
+
+.weather-card h2 {
+  margin: 5px 0;
+}
+
+.weather-card h3 {
+  margin: 5px 0;
+  font-size: 24px;
+}
+
+.weather-card p {
+  margin: 5px 0;
+  color: #555;
 }
